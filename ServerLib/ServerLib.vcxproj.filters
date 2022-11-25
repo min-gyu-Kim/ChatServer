@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CLanServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Log.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashDump.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPoolTLS.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="ServerPch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{15e3b641-a32e-4e38-b16b-b7c149e752af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{0476eb8e-5160-4987-88dd-15b800257b08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
